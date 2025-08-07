@@ -1,0 +1,8 @@
+Sentiric Eats Pizza Menüsü
+
+- Margherita Pizza: Domates sosu, mozzarella peyniri ve taze fesleğen. Fiyat: 250 TL
+- Karışık Pizza: Sucuk, sosis, mantar, yeşil biber, mısır ve zeytin. Fiyat: 300 TL
+- Vegan Pizza: Vegan peynir, mevsim sebzeleri. Fiyat: 280 TL
+
+Sipariş Hattı: 0212 454 85 90
+Çalışma Saatleri: 11:00 - 23:00
