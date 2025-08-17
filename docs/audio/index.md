@@ -26,7 +26,19 @@ Aşağıdaki komut, herhangi bir ses dosyasını (`kaynak.mp3`, `kaynak.wav` vb.
 
 Terminal veya komut isteminde bu komutu çalıştırın:
 ```bash
-ffmpeg -i [KAYNAK_DOSYA_ADI] -ar 8000 -ac 1 -acodec pcm_s16le [HEDEF_DOSYA_ADI].wav
+ffmpeg -i source\en\system\all_agents_busy.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\all_agents_busy.wav
+ffmpeg -i source\en\system\connecting.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\connecting.wav
+ffmpeg -i source\en\system\maintenance.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\maintenance.wav
+ffmpeg -i source\en\system\technical_difficulty.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\technical_difficulty.wav
+ffmpeg -i source\en\system\welcome_anonymous.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\welcome_anonymous.wav
+ffmpeg -i source\en\system\hold.mp3 -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\hold.wav
+
+ffmpeg -i source\tr\system\all_agents_busy.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\all_agents_busy.wav
+ffmpeg -i source\tr\system\connecting.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\connecting.wav
+ffmpeg -i source\tr\system\maintenance.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\maintenance.wav
+ffmpeg -i source\tr\system\technical_difficulty.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\technical_difficulty.wav
+ffmpeg -i source\tr\system\welcome_anonymous.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\welcome_anonymous.wav
+ffmpeg -i source\tr\system\hold.mp3 -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\hold.wav
 ```
 
 **Örnek Kullanım:**
