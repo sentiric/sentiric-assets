@@ -35,6 +35,7 @@ ffmpeg -i source\en\system\hold.mp3 -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\sy
 
 ffmpeg -i source\tr\system\cant_hear_you.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\cant_hear_you.wav
 ffmpeg -i source\tr\system\cant_understand.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\cant_understand.wav
+ffmpeg -i source\tr\system\nat_warmer.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\nat_warmer.wav
 
 ffmpeg -i source\tr\system\all_agents_busy.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\all_agents_busy.wav
 ffmpeg -i source\tr\system\connecting.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\connecting.wav
@@ -45,6 +46,7 @@ ffmpeg -i source\tr\system\hold.mp3 -ar 8000 -ac 1 -acodec pcm_s16le audio\en\sy
 
 ffmpeg -i source\en\system\cant_hear_you.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\cant_hear_you.wav
 ffmpeg -i source\en\system\cant_understand.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\cant_understand.wav
+ffmpeg -i source\en\system\nat_warmer.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\nat_warmer.wav
 ```
 
 **Örnek Kullanım:**
