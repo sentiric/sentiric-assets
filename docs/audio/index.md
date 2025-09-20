@@ -27,28 +27,29 @@ Aşağıdaki komut, herhangi bir ses dosyasını (`kaynak.mp3`, `kaynak.wav` vb.
 Terminal veya komut isteminde bu komutu çalıştırın:
 ```bash
 
-ffmpeg -i source\tr\system\welcome_anonymous.wav    -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\welcome_anonymous.wav
-ffmpeg -i source\tr\system\connecting.wav           -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\connecting.wav
-ffmpeg -i source\tr\system\hold.mp3                 -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\hold.wav
-ffmpeg -i source\tr\system\all_agents_busy.wav      -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\all_agents_busy.wav
-ffmpeg -i source\tr\system\cant_hear_you.wav        -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\cant_hear_you.wav
-ffmpeg -i source\tr\system\cant_understand.wav      -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\cant_understand.wav
-ffmpeg -i source\tr\system\nat_warmer.wav           -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\nat_warmer.wav
-ffmpeg -i source\tr\system\max_failures.wav         -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\max_failures.wav
-ffmpeg -i source\tr\system\maintenance.wav          -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\maintenance.wav
-ffmpeg -i source\tr\system\technical_difficulty.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\technical_difficulty.wav
+ffmpeg -i source\tr\system\tr_welcome_anonymous.wav    -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\welcome_anonymous.wav
+ffmpeg -i source\tr\system\tr_connecting.wav           -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\connecting.wav
+ffmpeg -i source\tr\system\tr_hold.mp3                 -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\hold.wav
+ffmpeg -i source\tr\system\tr_all_agents_busy.wav      -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\all_agents_busy.wav
+ffmpeg -i source\tr\system\tr_cant_hear_you.wav        -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\cant_hear_you.wav
+ffmpeg -i source\tr\system\tr_cant_understand.wav      -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\cant_understand.wav
+ffmpeg -i source\tr\system\tr_nat_warmer.wav           -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\nat_warmer.wav
+ffmpeg -i source\tr\system\tr_max_failures.wav         -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\max_failures.wav
+ffmpeg -i source\tr\system\tr_maintenance.wav          -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\maintenance.wav
+ffmpeg -i source\tr\system\tr_technical_difficulty.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\technical_difficulty.wav
+ffmpeg -i source\tr\system\tr_goodbye.wav              -ar 8000 -ac 1 -acodec pcm_s16le audio\tr\system\goodbye.wav
 
-
-ffmpeg -i source\en\system\welcome_anonymous.wav    -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\welcome_anonymous.wav
-ffmpeg -i source\en\system\connecting.wav           -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\connecting.wav
-ffmpeg -i source\en\system\hold.mp3                 -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\hold.wav
-ffmpeg -i source\en\system\all_agents_busy.wav      -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\all_agents_busy.wav
-ffmpeg -i source\en\system\cant_hear_you.wav        -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\cant_hear_you.wav
-ffmpeg -i source\en\system\cant_understand.wav      -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\cant_understand.wav
-ffmpeg -i source\en\system\nat_warmer.wav           -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\nat_warmer.wav
-ffmpeg -i source\en\system\max_failures.wav         -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\max_failures.wav
-ffmpeg -i source\en\system\maintenance.wav          -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\maintenance.wav
-ffmpeg -i source\en\system\technical_difficulty.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\technical_difficulty.wav
+ffmpeg -i source\en\system\en_welcome_anonymous.wav    -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\welcome_anonymous.wav
+ffmpeg -i source\en\system\en_connecting.wav           -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\connecting.wav
+ffmpeg -i source\en\system\en_hold.mp3                 -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\hold.wav
+ffmpeg -i source\en\system\en_all_agents_busy.wav      -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\all_agents_busy.wav
+ffmpeg -i source\en\system\en_cant_hear_you.wav        -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\cant_hear_you.wav
+ffmpeg -i source\en\system\en_cant_understand.wav      -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\cant_understand.wav
+ffmpeg -i source\en\system\en_nat_warmer.wav           -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\nat_warmer.wav
+ffmpeg -i source\en\system\en_max_failures.wav         -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\max_failures.wav
+ffmpeg -i source\en\system\en_maintenance.wav          -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\maintenance.wav
+ffmpeg -i source\en\system\en_technical_difficulty.wav -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\technical_difficulty.wav
+ffmpeg -i source\en\system\en_goodbye.wav              -ar 8000 -ac 1 -acodec pcm_s16le audio\en\system\goodbye.wav
 
 ```
 
