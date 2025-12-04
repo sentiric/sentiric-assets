@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # --- AYARLAR ---
-OUTPUT_BASE_DIR = "audio/speakers"
+OUTPUT_BASE_DIR = "docs/audio/speakers"
 API_KEY = os.environ.get("GEMINI_API_KEY")
 
 # DOĞRU MODEL İSMİ
@@ -21,9 +21,10 @@ DAILY_LIMIT = 15
 
 VOICE_DB = {
     # --- TÜRKÇE KADROSU ---
-    "Fenrir":   {"name": "M_TR_Heyecanli_Can", "lang": "tr", "gender": "M"},
-    "Puck":     {"name": "M_TR_Enerjik_Mert",  "lang": "tr", "gender": "M"},
-    "Kore":     {"name": "F_TR_Kurumsal_Ece",  "lang": "tr", "gender": "F"},
+    # ilk uç ses ve stil (15 adet) indirildi ve optimize çalıştırıldı.
+    # "Fenrir":   {"name": "M_TR_Heyecanli_Can", "lang": "tr", "gender": "M"},
+    # "Puck":     {"name": "M_TR_Enerjik_Mert",  "lang": "tr", "gender": "M"},
+    # "Kore":     {"name": "F_TR_Kurumsal_Ece",  "lang": "tr", "gender": "F"},
     "Leda":     {"name": "F_TR_Genc_Selin",    "lang": "tr", "gender": "F"},
     "Charon":   {"name": "M_TR_Tok_Kadir",     "lang": "tr", "gender": "M"},
     "Zephyr":   {"name": "F_TR_Parlak_Zeynep", "lang": "tr", "gender": "F"},
