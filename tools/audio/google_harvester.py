@@ -13,8 +13,8 @@ MODEL_NAME = "gemini-2.5-flash-preview-tts"  # DOKÜMANDAKİ İSİM
 # MODEL_NAME = "gemini-2.5-pro-preview-tts"  # Alternatif
 
 # Limitler: Dakikada 3 istek, Günde 15 istek (ücretsiz tier)
-SAFE_DELAY = 25  # 60/3 = 20 + 5 saniye güvenlik
-DAILY_LIMIT = 15
+SAFE_DELAY = 60  # 60/3 = 20 + 5 saniye güvenlik
+DAILY_LIMIT = 10
 
 # --- GOOGLE TTS SES KADROSU (Dokümanda Listelenen 30 Ses) ---
 # Sesler: Zephyr, Puck, Charon, Kore, Fenrir, Leda, Orus, Aoede, Callirrhoe, Autonoe, Enceladus, Iapetus, Umbriel, Algieba, Despina, Erinome, Algenib, Rasalgethi, Laomedeia, Achernar, Alnilam, Schedar, Gacrux, Pulcherrima, Achird, Zubenelgenubi, Vindemiatrix, Sadachbia, Sadaltager, Sulafat
@@ -22,12 +22,12 @@ DAILY_LIMIT = 15
 VOICE_DB = {
     # --- TÜRKÇE KADROSU ---
     # ses ve stil indirildi
-    # "Fenrir":   {"name": "M_TR_Heyecanli_Can", "lang": "tr", "gender": "M"},
-    # "Puck":     {"name": "M_TR_Enerjik_Mert",  "lang": "tr", "gender": "M"},
-    # "Kore":     {"name": "F_TR_Kurumsal_Ece",  "lang": "tr", "gender": "F"},
-    # "Leda":     {"name": "F_TR_Genc_Selin",    "lang": "tr", "gender": "F"},
-    # "Charon":   {"name": "M_TR_Tok_Kadir",     "lang": "tr", "gender": "M"},
-    # "Zephyr":   {"name": "F_TR_Parlak_Zeynep", "lang": "tr", "gender": "F"},
+    "Fenrir":   {"name": "M_TR_Heyecanli_Can", "lang": "tr", "gender": "M"},
+    "Puck":     {"name": "M_TR_Enerjik_Mert",  "lang": "tr", "gender": "M"},
+    "Kore":     {"name": "F_TR_Kurumsal_Ece",  "lang": "tr", "gender": "F"},
+    "Leda":     {"name": "F_TR_Genc_Selin",    "lang": "tr", "gender": "F"},
+    "Charon":   {"name": "M_TR_Tok_Kadir",     "lang": "tr", "gender": "M"},
+    "Zephyr":   {"name": "F_TR_Parlak_Zeynep", "lang": "tr", "gender": "F"},
     
     # --- İNGİLİZCE KADROSU ---
     "Orus":         {"name": "M_EN_Corporate_Orus", "lang": "en"},
