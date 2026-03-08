@@ -1,0 +1,18 @@
+<!-- public/sentiric-logo.svg -->
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sentiricGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#A076F9;" />
+      <stop offset="100%" style="stop-color:#00D4C8;" />
+    </linearGradient>
+  </defs>
+  <g transform="rotate(10, 50, 50)">
+    <path d="M 75,85 Q 20,95 50,50 T 25,15" 
+          stroke="url(#sentiricGradient)" 
+          stroke-width="12" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          fill="none" />
+    <circle cx="25" cy="15" r="7" fill="#00D4C8" />
+  </g>
+</svg>

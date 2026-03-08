@@ -1,0 +1,10 @@
+<!-- public/favicon.svg -->
+<svg width="64" height="64" viewBox="10 10 80 80" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="favGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#A076F9"/>
+            <stop offset="100%" stop-color="#00D4C8"/>
+        </linearGradient>
+    </defs>
+    <path d="M 75,85 Q 20,95 50,50 T 25,15" fill="none" stroke="url(#favGradient)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
