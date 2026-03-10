@@ -5,6 +5,7 @@ from google import genai
 from google.genai import types
 
 MODEL="gemini-2.5-pro-preview-tts"
+MODEL="gemini-2.5-flash-preview-tts"
 
 client=genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 

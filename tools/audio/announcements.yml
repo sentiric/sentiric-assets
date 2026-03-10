@@ -35,13 +35,13 @@ announcements:
   #     tr: "Şu anda tüm temsilcilerimiz diğer müşterimize hizmet vermektedir. Bekrettiğimiz için özür dileriz. Lütfen kısa bir süre sonra tekrar deneyin."
   #     en: "All our agents are currently assisting other customers. We apologize for the wait. Please try again shortly."
 
-  # - id: ANNOUNCE_SYSTEM_CANT_HEAR_YOU
-  #   audio:
-  #     tr: audio/tr/master/cant_hear_you.wav
-  #     en: audio/en/master/cant_hear_you.wav
-  #   text:
-  #     tr: "Sizi duyamıyorum. Lütfen biraz daha yüksek sesle konuşur musunuz?"
-  #     en: "I am having trouble hearing you. Could you please speak a little louder?"
+  - id: ANNOUNCE_SYSTEM_CANT_HEAR_YOU
+    audio:
+      tr: audio/tr/master/cant_hear_you.wav
+      en: audio/en/master/cant_hear_you.wav
+    text:
+      tr: "Sizi duyamıyorum. Lütfen biraz daha yüksek sesle konuşur musunuz?"
+      en: "I am having trouble hearing you. Could you please speak a little louder?"
 
   # - id: ANNOUNCE_SYSTEM_CANT_UNDERSTAND
   #   audio:
@@ -67,29 +67,29 @@ announcements:
   #     tr: "Üzgünüm. Birkaç denemeye rağmen anlayamadım. Daha sonra tekrar denemenizi rica ediyorum. Hoşçakalın."
   #     en: "I am sorry, but I am having a trouble understanding. Please try calling back later. Goodbye."
 
-  # - id: ANNOUNCE_SYSTEM_MAINTENANCE
-  #   audio:
-  #     tr: audio/tr/master/maintenance.wav
-  #     en: audio/en/master/maintenance.wav
-  #   text:
-  #     tr: "Sistemlerimizde planlı bir bakım çalışması yapılmaktadır. En kısa sürede tekrar hizmetinizde olacağız."
-  #     en: "Our systems are currently undergoing scheduled maintenance. We will be back online shortly."
+  - id: ANNOUNCE_SYSTEM_MAINTENANCE
+    audio:
+      tr: audio/tr/master/maintenance.wav
+      en: audio/en/master/maintenance.wav
+    text:
+      tr: "Sistemlerimizde planlı bir bakım çalışması yapılmaktadır. En kısa sürede tekrar hizmetinizde olacağız."
+      en: "Our systems are currently undergoing scheduled maintenance. We will be back online shortly."
 
-  # - id: ANNOUNCE_SYSTEM_ERROR
-  #   audio:
-  #     tr: audio/tr/master/technical_difficulty.wav
-  #     en: audio/en/master/technical_difficulty.wav
-  #   text:
-  #     tr: "Üzgünüz. Şu anda teknik bir sorun yaşıyoruz. Lütfen daha sonra tekrar aramayı deneyin. Anlayışınız için teşekkür ederiz."
-  #     en: "Sorry, we are currently experiencing a technical issue. Please try calling again later."
+  - id: ANNOUNCE_SYSTEM_ERROR
+    audio:
+      tr: audio/tr/master/technical_difficulty.wav
+      en: audio/en/master/technical_difficulty.wav
+    text:
+      tr: "Üzgünüz. Şu anda teknik bir sorun yaşıyoruz. Lütfen daha sonra tekrar aramayı deneyin. Anlayışınız için teşekkür ederiz."
+      en: "Sorry, we are currently experiencing a technical issue. Please try calling again later."
 
-  # - id: ANNOUNCE_SYSTEM_GOODBYE
-  #   audio:
-  #     tr: audio/tr/master/goodbye.wav
-  #     en: audio/en/master/goodbye.wav
-  #   text:
-  #     tr: "Görüşmemizi sonlandırıyorum. Sentirik i kullandığınız için teşekkür eder, iyi günler dileriz."
-  #     en: "Ending our call now. Thank you for using Sentirik, have a great day."
+  - id: ANNOUNCE_SYSTEM_GOODBYE
+    audio:
+      tr: audio/tr/master/goodbye.wav
+      en: audio/en/master/goodbye.wav
+    text:
+      tr: "Görüşmemizi sonlandırıyorum. Sentirik i kullandığınız için teşekkür eder, iyi günler dileriz."
+      en: "Ending our call now. Thank you for using Sentirik, have a great day."
 
   - id: ANNOUNCE_SYSTEM_AFTER_HOURS
     audio:

@@ -6,7 +6,8 @@ pip install --upgrade pip
 pip install google-genai
 pip install google-genai --pre
 pip install pyyaml
-export GEMINI_API_KEY="API_KEYİNİZ"
-python tools/audio/google_harvester.py
+export GEMINI_API_KEY=""
+# python tools/audio/google_harvester.py
+python tools/audio/announcements.py
 
 ```
