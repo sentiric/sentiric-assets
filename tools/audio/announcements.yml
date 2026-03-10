@@ -1,0 +1,156 @@
+tenant: system
+voice: Zephyr
+
+announcements:
+
+  # - id: ANNOUNCE_GUEST_WELCOME
+  #   audio:
+  #     tr: audio/tr/master/welcome_anonymous.wav
+  #     en: audio/en/master/welcome_anonymous.wav
+  #   text:
+  #     tr: "Sentirik e hoş geldiniz. Görüşme kalitesini artırmak amacıyla bu görüşme kaydedilebilir. Sizi hemen bir asistana bağlıyorum."
+  #     en: "Welcome to Sentirik. This call may be recorded to improve service quality. Connecting you to an assistant now"
+
+  # - id: ANNOUNCE_SYSTEM_CONNECTING
+  #   audio:
+  #     tr: audio/tr/master/connecting.wav
+  #     en: audio/en/master/connecting.wav
+  #   text:
+  #     tr: "Sentirik e hoş geldiniz. Sizi akıllı asistanımıza bağlıyorum. Lütfen bekleyin."
+  #     en: "Welcome to Sentirik. Connecting you to our smart assistant. Please hold."
+
+  # - id: ANNOUNCE_SYSTEM_HOLD_MUSIC
+  #   audio:
+  #     tr: audio/tr/master/hold.wav
+  #     en: audio/en/master/hold.wav
+  #   text:
+  #     tr: "(Varsayılan bekletme müziği.)"
+  #     en: "(Default hold music)"
+
+  # - id: ANNOUNCE_SYSTEM_BUSY
+  #   audio:
+  #     tr: audio/tr/master/all_agents_busy.wav
+  #     en: audio/en/master/all_agents_busy.wav
+  #   text:
+  #     tr: "Şu anda tüm temsilcilerimiz diğer müşterimize hizmet vermektedir. Bekrettiğimiz için özür dileriz. Lütfen kısa bir süre sonra tekrar deneyin."
+  #     en: "All our agents are currently assisting other customers. We apologize for the wait. Please try again shortly."
+
+  # - id: ANNOUNCE_SYSTEM_CANT_HEAR_YOU
+  #   audio:
+  #     tr: audio/tr/master/cant_hear_you.wav
+  #     en: audio/en/master/cant_hear_you.wav
+  #   text:
+  #     tr: "Sizi duyamıyorum. Lütfen biraz daha yüksek sesle konuşur musunuz?"
+  #     en: "I am having trouble hearing you. Could you please speak a little louder?"
+
+  # - id: ANNOUNCE_SYSTEM_CANT_UNDERSTAND
+  #   audio:
+  #     tr: audio/tr/master/cant_understand.wav
+  #     en: audio/en/master/cant_understand.wav
+  #   text:
+  #     tr: "Üzgünüm, tam olarak anlayamadım. Lütfen farklı bir şekilde tekrar eder misiniz?."
+  #     en: "I am sorry, I did not quite catch that. Could you please rephrase?"
+
+  # - id: ANNOUNCE_SYSTEM_NAT_WARMER
+  #   audio:
+  #     tr: audio/tr/master/nat_warmer.wav
+  #     en: audio/en/master/nat_warmer.wav
+  #   text:
+  #     tr: "(Kısa sessizlik)"
+  #     en: "(break time)"
+
+  # - id: ANNOUNCE_SYSTEM_MAX_FAILURES
+  #   audio:
+  #     tr: audio/tr/master/max_failures.wav
+  #     en: audio/en/master/max_failures.wav
+  #   text:
+  #     tr: "Üzgünüm. Birkaç denemeye rağmen anlayamadım. Daha sonra tekrar denemenizi rica ediyorum. Hoşçakalın."
+  #     en: "I am sorry, but I am having a trouble understanding. Please try calling back later. Goodbye."
+
+  # - id: ANNOUNCE_SYSTEM_MAINTENANCE
+  #   audio:
+  #     tr: audio/tr/master/maintenance.wav
+  #     en: audio/en/master/maintenance.wav
+  #   text:
+  #     tr: "Sistemlerimizde planlı bir bakım çalışması yapılmaktadır. En kısa sürede tekrar hizmetinizde olacağız."
+  #     en: "Our systems are currently undergoing scheduled maintenance. We will be back online shortly."
+
+  # - id: ANNOUNCE_SYSTEM_ERROR
+  #   audio:
+  #     tr: audio/tr/master/technical_difficulty.wav
+  #     en: audio/en/master/technical_difficulty.wav
+  #   text:
+  #     tr: "Üzgünüz. Şu anda teknik bir sorun yaşıyoruz. Lütfen daha sonra tekrar aramayı deneyin. Anlayışınız için teşekkür ederiz."
+  #     en: "Sorry, we are currently experiencing a technical issue. Please try calling again later."
+
+  # - id: ANNOUNCE_SYSTEM_GOODBYE
+  #   audio:
+  #     tr: audio/tr/master/goodbye.wav
+  #     en: audio/en/master/goodbye.wav
+  #   text:
+  #     tr: "Görüşmemizi sonlandırıyorum. Sentirik i kullandığınız için teşekkür eder, iyi günler dileriz."
+  #     en: "Ending our call now. Thank you for using Sentirik, have a great day."
+
+  - id: ANNOUNCE_SYSTEM_AFTER_HOURS
+    audio:
+      tr: audio/tr/master/after_hours.wav
+      en: audio/en/master/after_hours.wav
+    text:
+      tr: "Şu anda mesai saatleri dışındayız. Lütfen çalışma saatlerimiz içerisinde tekrar arayınız."
+      en: "We are currently closed. Please call again during our business hours."
+
+  - id: ANNOUNCE_SYSTEM_HOLIDAY
+    audio:
+      tr: audio/tr/master/holiday.wav
+      en: audio/en/master/holiday.wav
+    text:
+      tr: "Bugün resmi tatil nedeniyle hizmet veremiyoruz."
+      en: "Our offices are closed today due to a public holiday."
+
+  - id: ANNOUNCE_SYSTEM_QUEUE_WAIT
+    audio:
+      tr: audio/tr/master/queue_wait.wav
+      en: audio/en/master/queue_wait.wav
+    text:
+      tr: "Temsilcilerimiz şu anda diğer müşterilerimize hizmet vermektedir. Lütfen hatta kalınız."
+      en: "All our agents are currently assisting other customers. Please stay on the line."
+
+  - id: ANNOUNCE_SYSTEM_LONG_WAIT
+    audio:
+      tr: audio/tr/master/long_wait.wav
+      en: audio/en/master/long_wait.wav
+    text:
+      tr: "Bekleme süresi beklenenden uzun olabilir. Anlayışınız için teşekkür ederiz."
+      en: "Your wait time may be longer than usual. Thank you for your patience."
+
+  - id: ANNOUNCE_SYSTEM_QUEUE_TIMEOUT
+    audio:
+      tr: audio/tr/master/queue_timeout.wav
+      en: audio/en/master/queue_timeout.wav
+    text:
+      tr: "Uzun süre beklediğiniz için üzgünüz. Lütfen daha sonra tekrar deneyin."
+      en: "We apologize for the long wait. Please try calling again later."
+
+  - id: ANNOUNCE_SYSTEM_NO_RESPONSE
+    audio:
+      tr: audio/tr/master/no_response.wav
+      en: audio/en/master/no_response.wav
+    text:
+      tr: "Herhangi bir yanıt alamadım."
+      en: "I did not receive any response."
+
+  - id: ANNOUNCE_SYSTEM_HANDOVER_TO_AGENT
+    audio:
+      tr: audio/tr/master/handover_agent.wav
+      en: audio/en/master/handover_agent.wav
+    text:
+      tr: "Sizi bir temsilciye bağlıyorum. Lütfen bekleyiniz."
+      en: "Transferring you to a human agent. Please hold."
+
+  - id: ANNOUNCE_SYSTEM_TRANSFER_FAILED
+    audio:
+      tr: audio/tr/master/transfer_failed.wav
+      en: audio/en/master/transfer_failed.wav
+    text:
+      tr: "Çağrınızı aktarırken bir sorun oluştu. Lütfen daha sonra tekrar deneyiniz."
+      en: "There was a problem transferring your call. Please try again later."
